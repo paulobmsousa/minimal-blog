@@ -34,8 +34,9 @@ layout: default
       </li>
       {%- endfor -%}
     </ul>
-
     <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+  {%- else -%}
+    <h2>No posts found</h2>
   {%- endif -%}
 
 </div>

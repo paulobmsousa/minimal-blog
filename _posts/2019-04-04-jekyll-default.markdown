@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Jekyll"
+title:  "Jekyll Default Page"
 date:   2019-04-01 15:38:58 -0400
 categories: jekyll
 ---
