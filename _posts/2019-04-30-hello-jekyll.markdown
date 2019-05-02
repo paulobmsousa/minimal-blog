@@ -334,7 +334,31 @@ It can be done according the following steps:
 
 Now, it is time to publish your site in a server. For simplicity, let us consider the [Github Pages][gitlab-pages].
 
-Firstly, considering that you have already your account (otherwise, you must follow the procedure in order to open it). Now, let us create your own repository in order to publish after. Follow the steps:
+Firstly, considering that you have already your account (otherwise, you must follow the procedure in order to open it). Now, let us create your own repository in order to publish after. 
+
++ **Tip**: When you create a **new repository**, Github will instruct you showing some commands like these:
+
+{% highlight git %}
+...or create a new repository on the command line
+
+echo "# techblog" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/paulobmsousa/techblog.git
+git push -u origin master
+
+...or push an existing repository from the command line
+
+git remote add origin https://github.com/paulobmsousa/techblog.git
+git push -u origin master
+
+...or import code from another repository
+{% endhighlight %}
+
+You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+
+Follow the steps:
 
 1. Create a README file. For simplicity, you can do it by: `echo "# MyBlog >> README.md"`;
 
